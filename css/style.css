@@ -16,6 +16,16 @@ body {
     margin: auto;
 }
 
+.layover {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .container {
     margin-top: 20px;
 }
@@ -45,10 +55,30 @@ img {
     text-transform: uppercase;
     color: #858585;
 }
-.container.yellow {
 
-    height: 320px;
-    background-color: #e1d67a;
+.banner {
+    height: 400px;
+    position: relative;
+}
+.banner img {
+
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+
+   border-radius: 10px;
+   
+   overflow: hidden;
+}
+
+.testo_banner {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    width: 50%;
+    color: white;
+    font-size: small;
+   
 }
 
 /*FINE HEADER*/
