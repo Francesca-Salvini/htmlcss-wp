@@ -34,6 +34,10 @@ img {
     width: 100%;
 }
 
+.text {
+    font-size: 16px;
+    color: #858585;
+}
 /*HEADER*/
 .logo img {
     width: 150px;
@@ -85,22 +89,21 @@ img {
 
 /*MAIN*/
 
-.container_azure {
+.container_col {
     width: 100%;
-    height: 420px;
-    background-color: #0289fd;
+    
     
     margin-top: 20px;
 }
 
+.titolo_sezione {
+    font-weight: bold;
+}
   
 
 
 
-.top {
-    height: 60px;
-    background-color: #abcfe7;
-}
+
 
 .clearfix::after {
     content: "";
@@ -116,18 +119,23 @@ img {
 .col_left, .col_right {
     
     width:  20%; 
-    height: 340px ;
-    background-color: #abcfe7;
-    
     float: left;
 }
 
 .col_center {
     width:  58%; 
-    height: 340px ;
-    background-color: #abcfe7;
     margin: 0 1%;
     float: left;
+}
+
+.col_img {
+    height: 200px;
+    position: relative;
+}
+
+.col_img img {
+    height: 100%;
+    object-fit: cover;
 }
 
 /*FINE MAIN*/
