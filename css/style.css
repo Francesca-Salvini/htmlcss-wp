@@ -16,12 +16,13 @@
     margin-top: 20px;
 }
 
-/*HEADER*/
-.container.pink {
+img {
+    width: 100%;
+}
 
-    height: 80px;
-    background-color: #e57ae6 ;
-   
+/*HEADER*/
+.logo img {
+    width: 150px;
 }
 
 .container.yellow {
