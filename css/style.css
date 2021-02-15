@@ -25,6 +25,22 @@ img {
     width: 150px;
 }
 
+.menu {
+    list-style-type: none;
+    padding: 2% 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #858585;
+}
 .container.yellow {
 
     height: 320px;
