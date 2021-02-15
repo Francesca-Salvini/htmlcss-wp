@@ -94,15 +94,15 @@ h3 {
 
 /*MAIN*/
 
+.top {
+    margin: 30px 0;
+}
+
 .container_col {
     width: 100%;
     margin-top: 20px;
 }
 
-.titolo_sezione {
-    font-weight: bold;
-}
-  
 .clearfix::after {
     content: "";
     display: table;
