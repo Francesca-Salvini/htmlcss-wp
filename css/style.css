@@ -6,6 +6,10 @@
 }
 
 /*COMMON*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 .wrapper {
     width: 80%;
    
